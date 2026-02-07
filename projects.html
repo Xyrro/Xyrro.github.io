@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Your Name</title>
+  <meta name="description" content="Projects by [Your Name], CS student at Georgia Tech.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="site-title">Your Name</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.site-nav').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="site-nav">
+        <a href="index.html">About</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="cv.html">CV</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-content">
+
+    <h1 class="section-title" style="margin-top: 0;">Projects</h1>
+    <p style="margin-bottom: 1.5rem; color: var(--color-text-light);">
+      A selection of academic and personal projects. See my
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a> for more.
+    </p>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <h3>Project Title One</h3>
+        <p>
+          Describe the project in 2-4 sentences. What problem does it address?
+          What approach did you take? What were the results or key outcomes?
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">PyTorch</span>
+          <span class="tag">Machine Learning</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/yourusername/project1" target="_blank">Code</a>
+          <a href="#">Report</a>
+          <a href="#">Demo</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <h3>Project Title Two</h3>
+        <p>
+          Another project description. Focus on what makes this project
+          interesting or challenging. Mention your specific contributions if it
+          was a team project.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Java</span>
+          <span class="tag">Distributed Systems</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/yourusername/project2" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <h3>Project Title Three</h3>
+        <p>
+          Describe this project. Include relevant context such as the course it
+          was built for, the team size, or the real-world application.
+        </p>
+        <div class="project-tags">
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Web Development</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/yourusername/project3" target="_blank">Code</a>
+          <a href="#">Live Site</a>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card">
+        <h3>Project Title Four</h3>
+        <p>
+          One more project. You can add or remove project cards as needed.
+          Just copy and paste the project-card div structure.
+        </p>
+        <div class="project-tags">
+          <span class="tag">C++</span>
+          <span class="tag">Computer Vision</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/yourusername/project4" target="_blank">Code</a>
+          <a href="#">Paper</a>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    &copy; 2026 Your Name. Hosted on <a href="https://pages.github.com/">GitHub Pages</a>.
+  </footer>
+
+</body>
+</html>
