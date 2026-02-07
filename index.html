@@ -64,9 +64,26 @@
       </div>
     </section>
 
+    <!-- News Section -->
+    <h2 class="section-title">News</h2>
+    <ul class="news-list">
+      <li><span class="news-date">Jan 2026</span> Joined Georgia Tech VIP Program &mdash; Responsible AI for Decision Making.</li>
+      <li><span class="news-date">Jan 2025</span> Joined the <a href="https://vip-smur.github.io/25sp-mobility-pei/" target="_blank">Surrogate Modeling for Urban Regeneration Lab</a> as a Machine Learning Researcher.</li>
+      <li><span class="news-date">Jan 2025</span> Started as an Undergraduate Teaching Assistant for PHYS 2211 at Georgia Tech.</li>
+      <li><span class="news-date">Jun 2024</span> Worked as an R&amp;D Assistant at WeiSheng &amp; Wecom on AI model development.</li>
+      <li><span class="news-date">2024</span> Helped Georgia Tech win third place in the nation at USACFC 2024 (Fencing).</li>
+    </ul>
+
     <!-- Work Experience Section -->
     <h2 class="section-title">Experience</h2>
     <div class="projects-grid">
+      <div class="project-card">
+        <h3>Responsible AI for Decision Making</h3>
+        <p>
+          <strong>Georgia Tech VIP Program</strong> &middot; Jan 2026 &ndash; Present<br>
+          Built LSTM forecasting models on S&amp;P 500 and NYSE datasets, achieving reliable next-day stock price predictions with error rates tracked through MSE/MAE metrics. Applied NLP methods (FinBERT, Hugging Face, BERTopic) to financial news, linking sentiment and industry signals to market movements for more accurate decision support.
+        </p>
+      </div>
       <div class="project-card">
         <h3>Machine Learning Researcher</h3>
         <p>
@@ -77,8 +94,8 @@
       <div class="project-card">
         <h3>Undergraduate Teaching Assistant</h3>
         <p>
-          <strong>PHYS 2211, School of Physics, Georgia Tech</strong> &middot; Jan 2025 &ndash; Present<br>
-          Collaborate with Professor Emily Alicea-Mu&ntilde;oz to support Intro Physics I. Lead and facilitate lab sessions, and offer one-on-one support to students.
+          <strong>PHYS 2211, <a href="https://physics.gatech.edu/" target="_blank">School of Physics</a>, Georgia Tech</strong> &middot; Jan 2025 &ndash; Present<br>
+          Collaborate with Dr. Emily Alicea-Mu&ntilde;oz and graduate teaching assistants to support PHYS 2211 (Intro Physics I), focused on mechanics and kinematics. Lead and facilitate lab sessions, and provide one-on-one support to students, assisting ~90 students per week with conceptual understanding and problem-solving.
         </p>
       </div>
       <div class="project-card">
@@ -89,16 +106,6 @@
         </p>
       </div>
     </div>
-
-    <!-- News Section -->
-    <h2 class="section-title">News</h2>
-    <ul class="news-list">
-      <li><span class="news-date">Jan 2026</span> Joined Georgia Tech VIP Program &mdash; Responsible AI for Decision Making.</li>
-      <li><span class="news-date">Jan 2025</span> Joined the <a href="https://vip-smur.github.io/25sp-mobility-pei/" target="_blank">Surrogate Modeling for Urban Regeneration Lab</a> as a Machine Learning Researcher.</li>
-      <li><span class="news-date">Jan 2025</span> Started as an Undergraduate Teaching Assistant for PHYS 2211 at Georgia Tech.</li>
-      <li><span class="news-date">Jun 2024</span> Worked as an R&amp;D Assistant at WeiSheng &amp; Wecom on AI model development.</li>
-      <li><span class="news-date">2024</span> Helped Georgia Tech win third place in the nation at USACFC 2024 (Fencing).</li>
-    </ul>
 
     <!-- Selected Projects Preview -->
     <h2 class="section-title">Selected Projects</h2>
@@ -116,6 +123,7 @@
           <span class="tag">PyTorch</span>
           <span class="tag">LSTM</span>
           <span class="tag">FinBERT</span>
+          <span class="tag">Hugging Face</span>
           <span class="tag">NLP</span>
         </div>
       </div>
@@ -125,11 +133,12 @@
         <p>
           Conducting cutting-edge research in machine learning-driven surrogate modeling
           to accelerate environmental simulations for urban regeneration projects,
-          under Professor Patrick Kastner.
+          working under Professor Patrick Kastner at Georgia Tech.
         </p>
         <div class="project-tags">
           <span class="tag">Python</span>
           <span class="tag">Machine Learning</span>
+          <span class="tag">Surrogate Modeling</span>
           <span class="tag">Simulation</span>
         </div>
         <div class="project-links">
@@ -140,18 +149,36 @@
       <div class="project-card">
         <h3>Glimpse3D</h3>
         <p>
-          Real-time 3D mesh generation from a single webcam image. Captures a frame,
-          removes the background, and uses TripoSR for single-view 3D reconstruction,
-          rendered interactively with Three.js.
+          Real-time 3D mesh generation from a single webcam image. Point your webcam
+          at an object, click capture, and get a textured 3D mesh you can orbit, zoom,
+          and pan. Powered by TripoSR for single-view 3D reconstruction, with background
+          removal via rembg/U2Net and interactive rendering using Three.js.
         </p>
         <div class="project-tags">
           <span class="tag">Python</span>
           <span class="tag">JavaScript</span>
           <span class="tag">Three.js</span>
           <span class="tag">TripoSR</span>
+          <span class="tag">PyTorch</span>
+          <span class="tag">Computer Vision</span>
         </div>
         <div class="project-links">
           <a href="https://github.com/Xyrro/Glimpse3D" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Math Visualization and Knot Theory</h3>
+        <p>
+          Research on mathematical visualization and knot theory conducted
+          with Dr. Sierra Knavel, exploring computational and visual approaches
+          to topological structures.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Mathematics</span>
+          <span class="tag">Visualization</span>
+          <span class="tag">Knot Theory</span>
+          <span class="tag">Topology</span>
         </div>
       </div>
 
@@ -160,15 +187,36 @@
         <p>
           Designed and developed a web application using Django and Google Maps
           that allows users to search for and discover restaurants in Atlanta.
+          Built with an Agile workflow using Ajax for dynamic content loading.
         </p>
         <div class="project-tags">
           <span class="tag">Python</span>
           <span class="tag">Django</span>
           <span class="tag">JavaScript</span>
+          <span class="tag">HTML/CSS</span>
           <span class="tag">SQLite</span>
+          <span class="tag">Ajax</span>
         </div>
         <div class="project-links">
           <a href="https://kharanshsingh.wixsite.com/atlfoodfinder-team-w" target="_blank">Project Site</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Digital Real-world Modeling and Ecological Sensitivity Analysis of Urban Parks</h3>
+        <p>
+          Used Phantom 4 Pro V2.0 for UAV tilt photography and Context Capture to
+          construct 3D modeling of the Orchid Garden urban park. Applied ArcGIS to
+          perform ecological sensitivity analysis of real-time park data, integrated
+          with the 3D model using InVEST and Python-based statistical analysis.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Context Capture</span>
+          <span class="tag">ArcGIS</span>
+          <span class="tag">InVEST</span>
+          <span class="tag">Python</span>
+          <span class="tag">NumPy</span>
+          <span class="tag">SALib</span>
         </div>
       </div>
     </div>
