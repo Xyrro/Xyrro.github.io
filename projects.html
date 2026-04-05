@@ -37,24 +37,30 @@
 
     <div class="projects-grid">
 
-      <!-- Responsible AI -->
+      <!-- Power System AI Agent for OPF -->
       <div class="project-card">
-        <h3>Responsible AI for Decision Making</h3>
+        <h3>Power System AI Agent for Optimal Power Flow</h3>
         <p>
-          Georgia Tech VIP Program, working under Professor
+          Georgia Tech VIP Program &mdash; Responsible AI for Decision Making, working under Professor
           <a href="https://sites.gatech.edu/pascal-van-hentenryck/" target="_blank">Pascal Van Hentenryck</a>.
-          Built LSTM forecasting models on S&amp;P 500 and NYSE datasets,
-          achieving reliable next-day stock price predictions with error rates tracked through
-          MSE/MAE metrics. Applied NLP methods (FinBERT, Hugging Face, BERTopic) to financial news,
-          linking sentiment and industry signals to market movements for more accurate decision support.
+          Established optimization models using Mixed Integer Programming and DC Optimal Power Flow (DCOPF) for
+          topology switching in power grids; induced congestion by scaling loads (1.09&times;&ndash;1.20&times;) to
+          identify switching candidates. Performed dual variable and slack analysis with Gurobi on IEEE 14, 30,
+          and 57-bus systems, identifying bottleneck constraints (e.g., thermal limit on line e(8,&thinsp;9) with
+          dual of &minus;9.79&nbsp;$/MW). Built <strong>Grid Viz</strong>, a visualization system mapping flow
+          directions, capacities, and angle differences. Leading the ML phase: training GNN and DNN models on the
+          14-bus system to predict optimal topology switching actions, replacing traditional optimization solvers;
+          developing dataset generation pipelines with randomized load values.
         </p>
         <div class="project-tags">
           <span class="tag">Python</span>
+          <span class="tag">Gurobi</span>
+          <span class="tag">MIP</span>
+          <span class="tag">DCOPF</span>
+          <span class="tag">GNN</span>
+          <span class="tag">DNN</span>
           <span class="tag">PyTorch</span>
-          <span class="tag">LSTM</span>
-          <span class="tag">FinBERT</span>
-          <span class="tag">Hugging Face</span>
-          <span class="tag">NLP</span>
+          <span class="tag">Optimization</span>
         </div>
       </div>
 
@@ -96,6 +102,30 @@
         </div>
         <div class="project-links">
           <a href="https://github.com/Xyrro/Glimpse3D" target="_blank">Code</a>
+        </div>
+      </div>
+
+      <!-- Financial Forecasting with LSTM and NLP -->
+      <div class="project-card">
+        <h3>Financial Forecasting with LSTM and NLP</h3>
+        <p>
+          Independent research project developing a hybrid deep learning pipeline for next-day equity price
+          forecasting. Trained LSTM models on multi-year historical price data from S&amp;P 500 and NYSE tickers,
+          evaluating performance through MSE and MAE metrics across volatility regimes. Integrated NLP-driven
+          signals by applying <strong>FinBERT</strong> (via Hugging Face Transformers) for sentiment classification
+          on financial news headlines and <strong>BERTopic</strong> for unsupervised topic modeling to extract
+          industry-level themes. Fused sentiment and topic features with price history in a joint forecasting
+          framework, linking news-driven signals to short-term market movements for more robust decision support.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">PyTorch</span>
+          <span class="tag">LSTM</span>
+          <span class="tag">FinBERT</span>
+          <span class="tag">Hugging Face</span>
+          <span class="tag">BERTopic</span>
+          <span class="tag">NLP</span>
+          <span class="tag">Quantitative Finance</span>
         </div>
       </div>
 
